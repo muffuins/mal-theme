@@ -1,25 +1,25 @@
 /* 1) Generated covers */
-/*@import url(https://github.com/muffuins/mal-theme/raw/master/covers/all_covers.css);*/
-@import url(https://github.com/muffuins/mal-theme/raw/master/covers/covers.css);
+/*@import url(https://muffuins.github.io/mal-theme/covers/all_covers.css);*/
+@import url(https://muffuins.github.io/mal-theme/covers/covers.css);
 @import url(https://malcat-gen.appspot.com/series?preset=more&user=muffuins&list=anime);
-@import url(https://github.com/muffuins/mal-theme/raw/master/covers/cover_override.css);
+@import url(https://muffuins.github.io/mal-theme/covers/cover_override.css);
 
 /* 2) Base layout */
-@import url(https://github.com/muffuins/mal-theme/raw/master/style/style.css);
+@import url(https://muffuins.github.io/mal-theme/style/style.css);
 
 /* Other */
-/*@import url(https://github.com/muffuins/mal-theme/raw/master/other/category.css);*/
+/*@import url(https://muffuins.github.io/mal-theme/other/category.css);*/
 
 /* 3) Top-bar icons */
-@import url(https://github.com/muffuins/mal-theme/raw/master/bar/gnome.css);
+@import url(https://muffuins.github.io/mal-theme/bar/gnome.css);
 
 /* 4) Layout theme */
-@import url(https://github.com/muffuins/mal-theme/raw/master/style/theme.css);
+@import url(https://muffuins.github.io/mal-theme/style/theme.css);
 
 /* 5) Addons - Add as many as you want */
-@import url(https://github.com/muffuins/mal-theme/raw/master/addons/longcovers.css);
-@import url(https://github.com/muffuins/mal-theme/raw/master/addons/centerbar.css);
-@import url(https://github.com/muffuins/mal-theme/raw/master/addons/kingdom-hearts.css);
+@import url(https://muffuins.github.io/mal-theme/addons/longcovers.css);
+@import url(https://muffuins.github.io/mal-theme/addons/centerbar.css);
+@import url(https://muffuins.github.io/mal-theme/addons/kingdom-hearts.css);
 
 /* 6) Options */
 /* Determines the number of covers on each row, it should be a multiple of 242px */
@@ -37,7 +37,7 @@
 }
 
 /* Header picture */
-/*#inlineContent {background-image: url(https://github.com/muffuins/mal-theme/blob/master/header/kingdomhearts.jpg);}*/
+/*#inlineContent {background-image: url(https://muffuins.github.io/mal-theme/header/kingdomhearts.jpg);}*/
 
 /* Default picture when no cover is found */
 .hide {background-image: url(https://i.imgur.com/6PArzaf.jpg);}
