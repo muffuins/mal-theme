@@ -1,0 +1,107 @@
+#inlineContent {
+	border-bottom-color: rgb(52, 52, 52);
+}
+#mal_control_strip tbody {
+	background-color: rgb(52, 52, 52);
+}
+/*#inlineContent, #searchBox, body, .hide {
+	background-color: rgb(26, 26, 26);
+}*/
+#searchBox, body, .hide {
+	background-color: rgb(26, 26, 26);
+}
+body {
+	background-image: url(https://i.imgur.com/xuc8SQz.jpg);
+	background-attachment: fixed;
+}
+/* */
+.status_selected {
+	background-color: rgb(52, 52, 52);
+	/*border: 2px solid #000000 !important;*/
+}
+/* */
+
+#searchBox, body, input[type=text] {
+	color: rgb(255, 255, 255);
+}
+/*#list_surround > table:first-of-type, input[type=text] {
+	background-color: rgb(52, 52, 52);
+}*/
+input[type=text] {
+	background-color: rgb(52, 52, 52);
+}
+/*#list_surround {
+	background-color: rgba(52, 52, 52, 0.7);
+}*/
+a {
+	color: rgb(182, 182, 182);
+}
+a:hover, #mal_cs_listinfo div a:hover, #mal_cs_links div a:hover, #mal_cs_otherlinks div a:hover {
+	color: rgb(255, 255, 255);
+}
+#list_surround > table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw):hover {
+	background-color: rgba(15, 0, 30, 0.6);
+	/*opacity: 1;*/
+}
+/*#list_surround > table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw) {
+	opacity: 0;
+	transition: opacity 0.50s 0.02s ease-in-out;
+}
+#list_surround > table:last-of-type:not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw) {
+	opacity: 1;
+}*/
+.hide {
+	box-shadow: 0px 0px 11px 2px rgb(13, 13, 13) inset;
+}
+::selection {
+	color: rgb(75, 0, 150);
+	background-color: rgb(255, 255, 255);
+}
+::-moz-selection {
+	color: rgb(75, 0, 150);
+	background-color: rgb(255, 255, 255);
+}
+/*#mal_cs_listinfo div a, #mal_cs_links div a, #mal_cs_otherlinks div a,
+.table_headerLink, .status_not_selected,
+.header_cw, .header_completed, .header_onhold,
+.header_dropped, .header_ptw,
+.category_totals, #grand_totals, #copyright {
+	background-color: rgb(26, 26, 26);
+	background-image: linear-gradient(top, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -o-linear-gradient(top, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -moz-linear-gradient(top, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -webkit-linear-gradient(top, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -ms-linear-gradient(top, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+}*/
+#mal_cs_listinfo div a, #mal_cs_links div a, #mal_cs_otherlinks div a,
+.table_headerLink, .status_not_selected, .category_totals, #grand_totals {
+	background-color: rgb(26, 26, 26);
+	background-image: linear-gradient(top, rgb(39, 39, 39) 30%, rgb(26, 26, 26) 70%);
+	background-image: -o-linear-gradient(top, rgb(39, 39, 39) 30%, rgb(26, 26, 26) 70%);
+	background-image: -moz-linear-gradient(top, rgb(39, 39, 39) 30%, rgb(26, 26, 26) 70%);
+	background-image: -webkit-linear-gradient(top, rgb(39, 39, 39) 30%, rgb(26, 26, 26) 70%);
+	background-image: -ms-linear-gradient(top, rgb(39, 39, 39) 30%, rgb(26, 26, 26) 70%);
+}
+#mal_cs_listinfo div a:hover, #mal_cs_links div a:hover, #mal_cs_otherlinks div a:hover,
+.table_headerLink:hover, /*.status_not_selected:hover*/ {
+	background-image: linear-gradient(bottom, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -o-linear-gradient(bottom, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -moz-linear-gradient(bottom, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -webkit-linear-gradient(bottom, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+	background-image: -ms-linear-gradient(bottom, rgb(26, 26, 26) 40%, rgb(13, 13, 13) 60%);
+}
+.td1, .td2, .td1 a + small, .td2 a + small, .animetitle {
+	background-color: rgba(13, 13, 13, 0.9);
+	background: transparent linear-gradient(top, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background: transparent -o-linear-gradient(top, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background: transparent -moz-linear-gradient(top, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background: transparent -webkit-linear-gradient(top, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background: transparent -ms-linear-gradient(top, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+}
+.animetitle:hover {
+	background-image: linear-gradient(bottom, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background-image: -o-linear-gradient(bottom, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background-image: -moz-linear-gradient(bottom, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background-image: -webkit-linear-gradient(bottom, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+	background-image: -ms-linear-gradient(bottom, rgba(26, 26, 26, 0.9) 40%, rgba(13, 13, 13, 0.9) 60%);
+}
