@@ -1,21 +1,21 @@
-﻿/* 1) Generated covers */
-/*@import url(https://www.dropbox.com/s/dm4ovg3dbzo2oxw/all_covers.css?dl=1);*/
-@import url(https://www.dropbox.com/s/hrhlx01eg6scr0l/manga_covers_nick.css?dl=1);
+/* 1) Generated covers */
+/*@import url(https://muffuins.github.io/mal-theme/covers/all_covers.css);*/
+@import url(https://muffuins.github.io/mal-theme/covers/manga_covers_nick.css);
 @import url(https://malcat-gen.appspot.com/series?preset=more&user=ACIIX&list=anime);
-@import url(https://www.dropbox.com/s/6naygttvpqwsze0/manga_cover_override_nick.css?dl=1);
+@import url(https://muffuins.github.io/mal-theme/covers/manga_cover_override_nick.css);
 
 /* 2) Base layout */
-@import url(https://www.dropbox.com/s/2bxmgohanotknds/style_nick.css?dl=1);
+@import url(https://muffuins.github.io/mal-theme/style/style_nick.css);
 
 /* 3) Top-bar icons */
-@import url(https://www.dropbox.com/s/e2f27zexwx6i7mn/japan.css?dl=1);
+@import url(https://muffuins.github.io/mal-theme/bar/japan.css);
 
 /* 4) Layout theme */
-@import url(https://www.dropbox.com/s/6cmj3cebpee4i47/theme_nick.css?dl=1);
+@import url(https://muffuins.github.io/mal-theme/style/theme_nick.css);
 
 /* 5) Addons - Add as many as you want */
-@import url(https://www.dropbox.com/s/qta6rc2dg8s01za/longcovers.css?dl=1);
-@import url(https://www.dropbox.com/s/9u9dxzcjn6yvtgx/asuka.css?dl=1);
+@import url(https://muffuins.github.io/mal-theme/addons/longcovers.css);
+@import url(https://muffuins.github.io/mal-theme/addons/asuka.css);
 
 /* 6) Options */
 /* Determines the number of covers on each row, it should be a multiple of 242px */
@@ -33,10 +33,10 @@
 }
 
 /* Header picture */
-#inlineContent {background-image: url(https://www.dropbox.com/s/1nio8nyml3sai8q/redline_sonoshee.jpg?dl=1);}
+#inlineContent {background-image: url(https://muffuins.github.io/mal-theme/header/redline_sonoshee.jpg);}
 
 /* Default picture when no cover is found */
-.hide {background-image: url(https://www.dropbox.com/s/5lz85br9n6e5ixu/default_nge.jpg?dl=1);}
+.hide {background-image: url(https://muffuins.github.io/mal-theme/covers/default_nge.jpg);}
 
 /* Links color */
 a {color: rgb(39, 255, 195);}
