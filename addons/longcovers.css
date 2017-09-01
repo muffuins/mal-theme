@@ -1,0 +1,7 @@
+#list_surround > table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw),
+.hide {
+	height: 300px;
+}
+.hide {
+	background-position: center;
+}

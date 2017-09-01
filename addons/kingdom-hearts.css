@@ -1,0 +1,30 @@
+@media (min-width: 1366px) {
+
+#list_surround > table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw):hover {
+	z-index: 4;
+}
+#list_surround > table:hover + .hide {
+	z-index: 3;
+}
+#list_surround:before {
+	pointer-events: none;
+	position: fixed;
+	bottom: 10px;
+	margin-left: -212px;
+	content: url(https://i.imgur.com/28YR1cm.png);
+	z-index: 2;
+}
+#list_surround:after {
+	pointer-events: none;
+	position: fixed;
+	bottom: 10px;
+	width: inherit;
+	min-width: inherit;
+	max-width: inherit;
+	margin-left: 212px;
+	content: url(https://i.imgur.com/WFeYMn0.png);
+	text-align: right;
+	z-index: 1;
+}
+
+}

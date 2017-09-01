@@ -1,0 +1,17 @@
+#mal_control_strip, #mal_control_strip tbody {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: 686px !important;
+}
+
+.header_cw + table, .header_completed + table, .header_onhold + table,
+.header_dropped + table, .header_ptw + table  {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	text-align: center !important;
+	width: 461px !important;
+	/*right: 50% !important;*/
+	right: -webkit-calc(50% - 120px) !important;
+    right: -moz-calc(50% - 120px) !important;
+    right: calc(50% - 120px) !important;
+}

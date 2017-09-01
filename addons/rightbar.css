@@ -1,0 +1,11 @@
+#inlineContent {
+	background-position: left;
+}
+#mal_control_strip tbody {
+	right: 2%;
+}
+.header_cw + table, .header_completed + table, .header_onhold + table,
+.header_dropped + table, .header_ptw + table {
+	right: 2%;
+	margin-right: 225px;
+}
