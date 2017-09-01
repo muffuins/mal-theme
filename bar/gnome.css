@@ -1,0 +1,16 @@
+#mal_cs_listinfo div:first-of-type a:before {background-image: url(https://i.imgur.com/hlv6NAd.png);}
+#mal_cs_listinfo div:last-of-type a:before {background-image: url(https://i.imgur.com/2yHer9M.png);}
+#mal_cs_links div:first-of-type a:first-of-type:before {background-image: url(https://i.imgur.com/UzJGLCA.png);}
+#mal_cs_links div:last-of-type a:first-of-type:before {background-image: url(https://i.imgur.com/HTvxVfT.png);}
+#mal_cs_links div:last-of-type a:last-of-type:before {background-image: url(https://i.imgur.com/2Yt3yJV.png);}
+#mal_cs_links div:first-of-type a:last-of-type:before {background-image: url(https://i.imgur.com/H2LaeUC.png);}
+#mal_cs_otherlinks div:first-of-type a:before {background-image: url(https://i.imgur.com/EJQHjJ4.png);}
+#mal_cs_otherlinks div a[href*="/forum/"]:before {background-image: url(https://i.imgur.com/RC9e9in.png);}
+#mal_cs_otherlinks div a[href*="/mangalist/"]:before {background-image: url(https://i.imgur.com/iP9xK7P.png);}
+#mal_cs_otherlinks div a[href*="/animelist/"]:before {background-image: url(https://i.imgur.com/lq4SJLd.png);}
+#mal_cs_otherlinks div a[href*="/login.php"]:before {background-image: url(https://i.imgur.com/M5EKiwZ.png);}
+#mal_cs_otherlinks div a[href*="/history/"]:before {background-image: url(https://i.imgur.com/jOzNMvc.png);}
+#mal_cs_otherlinks div a[href*="/register.php"]:before {background-image: url(https://i.imgur.com/qmScbvR.png);}
+#mal_cs_otherlinks div a[href*="/panel.php?go=export"]:before {background-image: url(https://i.imgur.com/iHbMLQt.png);}
+#mal_cs_otherlinks div a[href*="/shared"]:before {background-image: url(https://i.imgur.com/MoEl7fX.png);}
+#mal_cs_otherlinks div a[href*="/modules.php?go=faq"]:before {background-image: url(https://i.imgur.com/Mh1SYSG.png);}
