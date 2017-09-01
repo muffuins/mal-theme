@@ -17,7 +17,7 @@
 	/*z-index: 98;*/
 }
 .status_selected a, .status_not_selected a {
-    background-image: url(https://github.com/muffuins/mal-theme/raw/master/other/category/category.png);
+    background-image: url(https://muffuins.github.io/mal-theme/other/category/category.png);
     display: inline-block;
     font-size: 0;
     height: 100px;
@@ -34,7 +34,7 @@
     opacity: 1;
 }
 .status_selected a:before, .status_not_selected a:before {
-    background-image: url(https://github.com/muffuins/mal-theme/raw/master/other/category/category_hover.png);
+    background-image: url(https://muffuins.github.io/mal-theme/other/category/category_hover.png);
     content: "";
     display: inline-block;
     height: 100px;
