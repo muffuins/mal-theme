@@ -1,0 +1,58 @@
+/* 1) Generated covers */
+/*@import url(https://www.dropbox.com/s/dm4ovg3dbzo2oxw/all_covers.css?dl=1);*/
+@import url(https://www.dropbox.com/s/qqitl9d3lt1lo0k/covers.css?dl=1);
+@import url(https://malcat-gen.appspot.com/series?preset=more&user=muffuins&list=anime);
+@import url(https://www.dropbox.com/s/uzt7r281lx5crjb/cover_override.css?dl=1);
+
+/* 2) Base layout */
+@import url(https://www.dropbox.com/s/v4walymu5tojkpu/style.css?dl=1);
+
+/* Other */
+/* @import url(https://www.dropbox.com/s/ul7ggik7pbwf8la/category.css?dl=1); */
+
+/* 3) Top-bar icons */
+@import url(https://www.dropbox.com/s/4re4g2q38e6ujf4/gnome.css?dl=1);
+
+/* 4) Layout theme */
+@import url(https://www.dropbox.com/s/1w9nhfoaifzwwhh/theme.css?dl=1);
+
+/* 5) Addons - Add as many as you want */
+@import url(https://www.dropbox.com/s/qta6rc2dg8s01za/longcovers.css?dl=1);
+@import url(https://www.dropbox.com/s/rjuz9jgplyk192y/centerbar.css?dl=1);
+@import url(https://www.dropbox.com/s/o9uii51q5ytylje/kingdom-hearts.css?dl=1);
+
+/* 6) Options */
+/* Determines the number of covers on each row, it should be a multiple of 242px */
+/* Can only display 3-6 covers */
+/* 3 = 726px */
+/* 4 = 968px */
+/* 5 = 1210px */
+/* 6 = 1452px */
+#mal\_control\_strip, #list_surround {width: 968px;}
+@media (min-width: 1600px) {
+#mal\_control\_strip, #list_surround {width: 1210px;}
+}
+@media (min-width: 1920px) {
+#mal\_control\_strip, #list_surround{width: 1452px;}
+}
+
+/* Header picture */
+/*#inlineContent {background-image: url(https://www.dropbox.com/s/3s09ebiowcfiofs/kingdomhearts.jpg?dl=1);}*/
+
+/* Default picture when no cover is found */
+.hide {background-image: url(https://i.imgur.com/6PArzaf.jpg);}
+
+/* Links color */
+a {color:#0099FF;}
+
+/* Other */
+/* @media all and (max-width: 1600px) { 
+	#list_surround {
+		margin-right: 285px;
+		margin-left: 40px;
+		float:right;
+	}
+} */
+
+#list_surround > table:first-of-type td:last-of-type { display: none; }
+#list_surround > table:last-of-type { display: none; }
