@@ -9,7 +9,7 @@
 	position: fixed;
 	bottom: 11px;
 	margin-left: -212px;
-	content: url(https://www.dropbox.com/s/o7qhh8ntnyuf9ay/asuka_left.png?dl=1);
+	content: url(https://github.com/muffuins/mal-theme/raw/master/addons/asuka_left.png);
 	z-index: 2;
 }
 #list_surround:after {
@@ -20,7 +20,7 @@
 	min-width: inherit;
 	max-width: inherit;
 	margin-left: 212px;
-	content: url(https://www.dropbox.com/s/ah6se2muzsg94sv/asuka_right.png?dl=1);
+	content: url(https://github.com/muffuins/mal-theme/raw/master/addons/asuka_right.png);
 	text-align: right;
 	z-index: 1;
 }
