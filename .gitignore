@@ -1,3 +1,8 @@
-
-covers/img/
 *.exe
+*.png
+*.jpg
+bar/gnome/
+bar/japan/
+covers/img/
+header/
+other/
