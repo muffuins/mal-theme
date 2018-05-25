@@ -1,8 +1,8 @@
 /* 1) Generated covers */
 /*@import url(https://muffuins.github.io/mal-theme/covers/all_covers.css);*/
 @import url(https://malcat-gen.appspot.com/series?preset=more&user=ACIIX&list=anime);
-@import url(https://muffuins.github.io/mal-theme/covers/manga_covers_nick.css);
-@import url(https://muffuins.github.io/mal-theme/covers/manga_cover_override_nick.css);
+@import url(https://muffuins.github.io/mal-theme/covers/covers_nick.css);
+@import url(https://muffuins.github.io/mal-theme/covers/cover_override_nick.css);
 
 /* 2) Base layout */
 @import url(https://muffuins.github.io/mal-theme/style/style_nick.css);
