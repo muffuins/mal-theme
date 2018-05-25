@@ -1,7 +1,7 @@
 /* 1) Generated covers */
 /*@import url(https://muffuins.github.io/mal-theme/covers/manga_all_covers.css);*/
-@import url(https://muffuins.github.io/mal-theme/covers/manga_covers.css);
 @import url(https://malcat-gen.appspot.com/series?preset=more&user=muffuins&list=manga);
+@import url(https://muffuins.github.io/mal-theme/covers/manga_covers.css);
 @import url(https://muffuins.github.io/mal-theme/covers/manga_cover_override.css);
 
 /* 2) Base layout */
